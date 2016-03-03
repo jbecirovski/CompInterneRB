@@ -1,0 +1,58 @@
+<Challenges>
+
+<Challenge>
+    <Name>Defi 1</Name>
+    <Description>Robots are facing off</Description>
+    <Robots>
+        <TeamYellow>
+            <Robot id='[0,5]' x='[-1,1]' y='[-3,3]'/>
+        </TeamYellow>
+        <TeamBlue>
+            <Robot id='0' x='-2.5' y='0'/>
+            <Robot id='[1,5]' x='[-1,1]' y='[-3,3]'/>
+        </TeamBlue>
+    </Robots>
+    <Ball x='15' y='15'/>
+    <Strategy>halt</Strategy>
+</Challenge>
+
+<Challenge>
+    <Name>Defi 2</Name>
+    <Description>Robots are in circle</Description>
+    <Robots>
+        <TeamYellow>
+            <Robot id='0' x='4.5' y='0' theta='180'/>
+            <Robot id='[1,5]' x='[10,20]' y='[10,20]'/>
+        </TeamYellow>
+        <TeamBlue>
+            <Robot id='0' x='-1' y='0.5'/>
+            <Robot id='1' x='-1' y='-0.5'/>
+            <Robot id='[2,5]' x='[-10,-20]' y='[-10,-20]'/>
+    </TeamBlue>
+
+    </Robots>
+    <Ball x='0' y='0'/>
+    <Strategy>goaler</Strategy>
+</Challenge>
+
+<Challenge>
+    <Name>Defi 3</Name>
+    <Description>Robots are in circle</Description>
+    <Robots>
+        <TeamYellow>
+            <Robot id='0' x='1' y='0.5' theta='180'/>
+            <Robot id='1' x='1' y='-0.5' theta='180'/>
+            <Robot id='[2,5]' x='[-10,-20]' y='[-10,-20]'/>
+        </TeamYellow>
+        <TeamBlue>
+            <Robot id='0' x='-4.5' y='0'/>
+            <Robot id='[1,5]' x='[10,20]' y='[10,20]'/>
+    </TeamBlue>
+
+    </Robots>
+    <Ball x='0' y='0'/>
+    <Strategy>center</Strategy>
+</Challenge>
+
+
+</Challenges>
